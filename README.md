@@ -1,7 +1,8 @@
 # searchresult_cleaner
-(Chrome Extension) Cleanup search results.
+(Chrome Extension Example)
+Cleanup search results.
 
-This is a Chrome extension.
+This is a Chrome extension Example.
 Remove the sponsered ads from the search results on the web.
 
 これはChromeブラウザ拡張機能のサンプルコードです。
