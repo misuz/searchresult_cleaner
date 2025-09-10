@@ -1,0 +1,7 @@
+{
+  "blockedDomains": [
+    "example.com",
+    "spam-site.com",
+    "test-site.net"
+  ]
+}

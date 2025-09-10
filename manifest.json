@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Search Result Cleaner",
+  "version": "1.0",
+  "description": "検索結果から特定のドメインや広告を非表示にします",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["domains.json"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
